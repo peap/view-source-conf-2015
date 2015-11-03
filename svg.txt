@@ -1,0 +1,74 @@
+SVG for Web Designers (and Developers)
+Sara Soueidan
+
+sarasoueidan.com/articles
+
+SVG support is great now. IE <= 8 and old Android (< 4.1) don't.
+If you DO need to support older browsers, fallback is easy. Do SVG!
+
+When/Why to SVG?
+* continuous-tone images such as photographs are not good candidates for SVG
+* buttons/icons/vector-based images are good for SVG
+
+SVG can do more than display images:
+* icon systems (replace icon fonts)
+** css-tricks.com has an article about why SVG icons are better
+* ad banners (replace flash)
+* infographics
+* data visualizations (or WebGL, Canvas, depending on needs/performance)
+* animated illustrations
+* filter effects (on SVG as well as HTML elements, including text)
+* simple UI shapes and arbitrarily-shaped UI components
+
+The Process
+* designers --> developers
+* knowledge gap: designers need to know a little bit about the SVG code, and
+  the developers need to know a little about the design process
+
+Design
+* convert text to outlines (or don't)
+** outlined text is not selectable/searchable/accessible
+** however, outlined text will preserve the font face you're using w/o needing
+a web font (good for logos and lettering)
+** outlining can significantly increase file size
+* create simple shapes with shape elements instead of paths
+* simplify paths
+* combine paths where possible
+** ... but only if you don't want to animate the individual paths separately
+* fit artboard to drawing
+** removes extra white space around drawing
+* use good grouping, layering, and naming conventions
+
+Always keep the width and height attributes on the <svg>.
+
+Communicate
+* designers and developers need to communicate early in the process
+
+Optimize
+* most popular tool: SVGO
+* sarasoueidan.com/blog/svgo-tools/
+* this can change the document structure, so don't optimize if you need the
+current structure for animations/scripting
+
+Development
+* which embedding technique should you choose? (7 choices!)
+* <img src="blah.svg" alt="...">
+* <picture><source (main SVG image)><img (fallback image)></picture>
+** more advanced, more useful version of img
+* <object>
+* <iframe>
+* <svg>
+** xmlns attr can be omitted if you're in an HTML5 document
+* filter down your method based on what support you need (CSS animations, JS
+animations, caching behavior...)
+
+Don't use SMIL.
+
+Use CSS only for simple animations
+* greensock.com/svg-tips
+
+Use JS for complex animations:
+* GreenSock Animation Platform (GSAP)
+* Snap.svg ("The jQuery of SVG")
+* Velocity.js
+* D3.js (data visualizations)
