@@ -2,6 +2,8 @@ Advanced Front-end Automation with npm Scripts
 Kate Hudson
 @k88hudson
 
+http://www.slideshare.net/k88hudson/advanced-frontend-automation-with-npm-scripts
+
 Why npm scripts?
 
 npm scripts = shell + node + npm + magic
