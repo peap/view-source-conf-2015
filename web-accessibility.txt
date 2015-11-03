@@ -1,0 +1,62 @@
+Web Accessibility - Making Websites Better for Everyone
+Stephanie Hobson
+stephaniehobson.ca
+
+Examples of other means of accessing websites
+
+* screen readers
+* high contrast plugins
+* voice recognition software
+** course pointer: screen grid, pick a box, new grid, pick a box, ...
+* trackball - move mouse, click button w/o moving the mouse after positioning it
+* keyboard - no mouse hover
+
+Try it yourself - try it, watch youtube videos of experts using these tools
+* Jaws / ChromeVox
+* Windows High contrast
+* ...
+
+What's needed for an accessible website:
+* UX
+** content
+** information architecture
+** ...
+* HTML
+** semantic HTML (meaningful markup)
+** wave.webaim.org
+** WCAG 2.0
+* CSS
+** don't screw up your HTML to make it easier to style
+** make small improvements
+* JavaScript
+** don't screw up your HTML
+** return focus to buttons that open a modal, for example
+** ARIA Roles and Attributes
+
+Random notes:
+* 12% of men are colorblind
+* ALL CAPS is read letter-by-letter by screen readers
+* CSS: "speak: none;" to (try to) prevent SRs from reading things like text
+  icons. aria-hidden is better than "speak: none;"
+* Fitts' Law - bigger it is, the easier it is to use
+* aria-controls to link button to controlled element
+* aria-expanded/aria-hidden to show the controlled element is expanded or not
+* use CSS to show/hide based on the ARIA tags, instead of jQuery's hide/show
+
+.offscreen {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: // something... see HTML5 Boilerplate
+    clip: // something...
+}
+
+What just happened (in the demo)?
+* choose the right element
+* use descriptive calls to action
+* make hit areas bigger
+* add visual cues in the CSS
+* don't just add visual cuues
+
+Web Accessibility can become second nature.
