@@ -1,6 +1,9 @@
 Tips for retro-fitting an application for responsiveness:
 (from the Ubuntu.com responsive redesign)
 
+read more at design.canonical.com
+bit.ly/viewsource2015
+
 1. Define a project leader
 2. Buy lots of post-it notes
 3. Involve all the right people
@@ -17,7 +20,7 @@ Tips for retro-fitting an application for responsiveness:
 14. Have a style guide
 15. Clean up your CSS
 16. Convert grid to percentages
-17. ... (reuse components?)
+17. Evolve instead of change
 18. Don't be afraid to copy
 19. Don't use everyone at once, and use everyone at once
 20. Show your prototypes
