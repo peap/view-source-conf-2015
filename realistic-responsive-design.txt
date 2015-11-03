@@ -1,0 +1,33 @@
+Tips for retro-fitting an application for responsiveness:
+(from the Ubuntu.com responsive redesign)
+
+1. Define a project leader
+2. Buy lots of post-it notes
+3. Involve all the right people
+4. Make a wishlist and plan from there
+5. De-prioritize other projects
+6. Aim for a date, but be flexible
+7. Prioritize what you want to do first
+8. Write down everything that you will NOT do
+9. List all your pages
+10. Allow plenty of time for device testing
+11. Get test devices based on analytics
+12. Create a document with initial rules
+13. Make a component inventory
+14. Have a style guide
+15. Clean up your CSS
+16. Convert grid to percentages
+17. ... (reuse components?)
+18. Don't be afraid to copy
+19. Don't use everyone at once, and use everyone at once
+20. Show your prototypes
+21. Quick and dirty UX
+22. Experiment on smaller projects
+23. What can we do in 1 hour? 
+24. Determine breakpoints based on your users
+25. Make an image inventory
+26. Store reusable image assets in a central location
+27. Adjust type based on real devices
+28. Don't keep two code bases for longer than necessary
+29. Keep a record of all decisions
+30. Talk and write about it
