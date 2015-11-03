@@ -1,0 +1,31 @@
+Web Security Made Easy
+Albert Yu
+Yahoo Paranoid
+
+bit.ly/security-viewsource
+
+Part 1: Web Security
+* OWASP Top 10
+* can be distilled into 3 major areas:
+** mixing code and data segments (ie, SQL injection)
+** AuthN/AuthZ flawed implementation
+** misconfiguration
+
+<img src=x onerror=alert(document.cookie)>
+
+Safe templating:
+* Yahoo Safe Javascript Templating
+* React JSX
+* ...
+* https://github.com/yahoo/secure-handlebars
+
+Part 2: Browser Security
+* too big a topic to also talk about in this talk
+
+Takeaways:
+* use the right library in the right way
+** logic-less templating; put *escaped* data in HTML data blocks only
+** auto-escaped templating; put data in *HTML data* blocks only (not
+attributes, CSS, JS, comments, etc.)
+** contextual auto-escaped template
+** structural templating, rejecting all non-compliant syntax
