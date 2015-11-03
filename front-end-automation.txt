@@ -1,0 +1,25 @@
+Advanced Front-end Automation with npm Scripts
+Kate Hudson
+@k88hudson
+
+Why npm scripts?
+
+npm scripts = shell + node + npm + magic
+
+package.json:
+{
+    "scripts": {
+        "test": "..."
+    }
+}
+
+npm run test
+
+lifecycle hooks are great, too: preinstall, (install), postinstall
+
+npm-run-all is a node module to run many tasks in series/parallel
+
+Tradeoffs:
+* NPM scripts provide a simpler mental model than Grunt/Gulp, instead of performance
+* less code, but less extensible
+* shell scripting is still hard, especially maintaining cross-compatibility with Windows
