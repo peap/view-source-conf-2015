@@ -1,0 +1,69 @@
+ECMAScript 2015: What Took It So long?
+Allen Wirfs-Brock
+- editor of the ECMAScript 6/2015 standard
+
+http://wirfs-brock.com/allen/files/viewsource-es2015.pdf
+
+What is ECMAScript?
+* ECMAScript is the name of the international standard that defines JavaScript
+** trademark issues!
+** Ecma International: Technical Committee 39
+* Ecma-262
+* Not part of W3C
+* V8, SpiderMonkey, Chakra, and JSCore are different JS implementations
+
+History
+* 1995: created
+* 1996: ES1
+* 1999: ES3; baseline for modern JS
+* 2000: ES4, attempt 1
+* 2005: ES4, attempt 2
+* 2008: ES4 abandoned
+* 2009: ES5; "use strict", JSON, Object.create, etc...
+* 2009-2011: JS Performance Revolution
+* 2015: ES6!
+
+How was ECMAScript 2015 developed?
+* TC-39 isn't a giant assembly, nor a small smoke-filled room
+* typical meeting is ~25 people, from various organizations' representatives,
+such as the browser manufacturers, popular websites, etc.
+
+Areas of focus for ES 2015:
+* modularity
+* better abstraction capability
+** functional programming support
+** better OO support
+* expressiveness and clarity
+* better compilation target, since it's the only game in browsertown
+* things that nobody else can do (TC-39, that is, ... if a library can do it, let
+libraries do it)
+
+What kind of language is JavaScript?
+* functional? OO?
+* permissive?
+* etc.
+
+Still have to respect what JS already is...
+* it'll never be Python, Lisp, Fortran, etc.
+* lots of baggage
+* #1 mantra of TC-39: Don't break the web!
+
+Closure in-loop problem; hosting and callback functions
+* ES6 can't redefine the scoping of var
+* introduced the "let" declaration, which don't hoist to the top of the
+function; they're local to their block, including a for-loop
+
+Took about 6 months to get all the let semantics defined.
+
+What's next?
+* continuous development cycle
+* annual June incremental updates (hence calling it ES 2015, instead of ES 6)
+* ES 2016, ES 2017, etc. ...
+* process: https://tc39.github.io/process-document/
+
+ES 2015
+* it's real!
+* spec is done.
+* transpilers and polyfills available today
+* browsers have implemented 50-80% so far
+* it's the foundation of the next 10-20 years of JavaScript evolution
