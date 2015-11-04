@@ -1,0 +1,28 @@
+Discussion
+
+Some people moving from Grunt/Gulp to npm scripts.
+
+Build scripts w/Grunt and Gulp can grew very quickly to hundreds of lines.
+
+NPM run scripts add .node_modules/ to the $PATH for you, so your scripts can
+reference those dependencies' binaries directly (eg, jshint, eslint).
+
+npm-run-all is a useful tool
+* https://github.com/mysticatea/npm-run-all
+
+pre- and post- tasks exist for every script
+If a pre- task fails with non-zero exit code, the rest of the process won't continue
+
+Building your own command line tools to use with (or without) NPM scripts is
+easy:
+* http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm
+* also check out "minimist"
+
+Basic empty project to show some cool stuff:
+* https://github.com/thealphanerd/start-here
+
+tasks in parallel: task1 & task2 & task3
+tasks in series: task1 && task2 && task3
+
+can't do parallel in windows that way, though...
+* use npm-run-all (or something else)
