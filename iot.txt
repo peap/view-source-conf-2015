@@ -1,0 +1,39 @@
+The Web, Wearables, and IoT: Connecting the Dots
+Tom Wesselman
+
+IoT shouldn't focus on just connecting everything... think about the overall
+user experience.
+
+It's the result of the technology that's really interesting.
+
+How can we do this? A few options:
+* super remote control
+* orchestration in the cloud
+* peer-to-peer
+
+It's a hard, big job to figure this out.
+* need open standards, which take years
+* requires cooperation of multiple companies, big and small
+* developer community
+
+web apps have evolved to be orchestrations of experiences that are really
+exciting
+
+How do we work with IoT devices in web apps?
+
+Option 1: meet in the web; connect devices to web & use web APIs
+* give the device an IP address
+* use a relay application
+* bluetooth 6LoWPAN
+* challenges:
+** who am i?
+** what is "my" house?
+** what happens when I sell my house?
+
+Option 2: extend the browser
+* relax the sandbox: Chrome, Firefox OS
+* expose existing protocols:
+** USB HID definitions
+** bluetooth and RFCOMM
+** bluetooth smart (BLE) profiles
+* Proposal for w3c BT API: https://webbluetoothcg.github.io/web-bluetooth
