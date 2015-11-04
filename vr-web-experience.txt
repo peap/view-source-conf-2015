@@ -1,0 +1,24 @@
+Building a Virtual Reality Web Experience
+Josh Carpenter
+
+live coding: Composite Demo
+
+Mozilla VR team's questions:
+* Is the web fast enough to do VR?
+* If so, then what?
+
+If we care about the Web, we have to get in on the ground floor with new
+technologies, such as VR.
+
+One catch: it's too hard to create WebVR experiences.
+* all WebGL so far - not many WebGL devs in the world
+
+A-Frame: building blocks for the VR web
+* a-components.js
+* open source library for creating web VR experiences w/o WebGL knowledge
+* A-Frame is the DOM
+* aframe.io
+* mozvr.com
+* github.com/mozvr
+
+phone-based demo: mozvr.github.io/aframe/examples/composite/
