@@ -1,0 +1,26 @@
+The Missing Slice
+Lea Verou
+
+leaverou.github.io/missing-slice
+
+Pie Charts
+...are everywhere
+
+Can we make pie charts with CSS?
+... yeah, but...
+
+"Pure CSS" is not enough.
+
+Good design is flexible, maintainable, and extensible.
+
+... a good demo followed
+
+SVG works, too!
+* it's even easier
+
+... a good demo followed
+
+Orrrr a CSS conic-gradient
+* super easy...
+* background: conic-gradient()
+* CSS Level 4 spec... no browser support yet, though
