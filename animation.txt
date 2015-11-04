@@ -1,0 +1,64 @@
+State of the Animation
+Rachel Nabors
+
+rachelnabors.com/waapi
+webanimationweekly.com
+
+Flash may be gone, but the era of web animation has just begun.
+
+Four people this talk is for:
+
+UI designers
+* animation guides users through interactions using
+** relationships, structure, cause & effect
+** offloading interpretation of changes to the perception system can speed up
+comprehension and reduce cognitive load
+
+Interaction developers
+* make complex interations
+
+Types of animations
+* static: start to finish
+* stateful: default state -- event --> predefined state
+** hover, click, etc.
+* dynamic: current state -- event --> new state (determined by certain factors)
+
+Animation library developers
+* GSAP (GreenSock Animation Platform)
+** most popular animation library for interaction development
+* Velocity.js (replaces jQuery's $.animate() function)
+
+Animation History: The Fall of Flash
+
+The Web Animation API
+* unified language for CSS and SVG animations
+
+Animation Spec Authors & Implementors
+
+2016 Prediction: Animation tooling will be big.
+
+birtles.github.io/areweanimatedyet
+
+browser support is... coming. for now, there's a polyfill: github.com/web-animations
+
+We need to talk to each other to get stuff done:
+
+UI Designers
+* don't be afraid of JS
+* take time top lay with the libraries
+* adopt tooling quickly
+
+Interaction Developers
+* check out the polyfill's page
+* give feedback
+
+Animation library developers
+* go read the spec
+* give feedback
+
+Animation Spec Authors & Implementors
+* find better ways of taking feedback
+* email and IRC are not enough
+* meet your users in the field
+
+2017 Prediction: you might not need GSAP
