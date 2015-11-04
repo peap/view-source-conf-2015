@@ -1,0 +1,13 @@
+Signal Processing, Perceptual Audio, and the Web Audio API
+
+Myles Borins
+@thealphanerd
+https://github.com/TheAlphaNerd/viewsource-2015
+
+Perceptual Audio: how our brains perceive sound
+
+Monome device - Max/MSP programming language
+
+WebAudio API
+
+https://github.com/TheAlphaNerd
