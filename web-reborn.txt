@@ -1,0 +1,49 @@
+The Web, Reborn
+-or-
+The web as an app platform. F'reals, this time.
+
+Chris Wilson
+
+The Web Rocks as an app platform:
+* low friction
+* incredible reach
+* discoverability
+* user-centric safety model
+
+Except...
+* poor reliability, bandwidth-wise
+* poor integration w/normal UX; mobile browser was more of window to the web,
+rather than a 2-way interaction with the user
+* "not very rich"
+* "slow"
+* hard to create a "relationship" with the user
+
+Native apps are:
+* reliable
+** even in uncertain bandwidth situations, apps tend to work
+* performant
+** time to launch from home screen should be < 1s
+* engagement
+
+Progressive web app: a low friction, responsive, robust, engaging user
+experience built using modern web capabilities, like service work, push
+notifications, and web app manifest.
+
+Technologies
+* Web App Manifest - immersive UX/Home Screen
+* Service Workers
+** better than AppCache 
+** SW services network requests
+** SW services push notifications
+** SWs are transient bits of code
+** basic offline is easy, rich MVC is possible
+
+Most of the new APIs are HTTPS only, hooray!
+
+Learn developer tools and performance testing.
+
+Brainstorm what you can do with push and device access.
+* push notifications
+* Bluetooth support
+* physical web / beacons
+* background sync
