@@ -1,0 +1,34 @@
+The Future of the Web
+
+David Bryant
+- Platform Team, Interim CTO of Mozilla
+
+What Mozilla thinks about:
+* The web is the BEST platform
+** today, and in the future
+* Developers = people who build things
+** web makers, browser makers, everyone!
+* Continual platform enrichment
+** Where are the gaps? Recently, games! Thus, WebGL, emscripting, asm.js.
+** push the boundaries about what the web can do
+
+Platform and toolkit interplay
+
+A Pattern: connect, access, unlock, span. (and repeat)
+* what happens when new devices come onto the scene
+
+Security, privacy, and control
+
+Richer application architectures
+* how can we enable new, better architectures?
+
+People are on the web
+* used to say people "browse" the web
+
+New Content
+New Hardware
+New Opportunity
+
+Connecting Devices and People
+
+First principle at Mozilla: the web is the best platform.
